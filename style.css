@@ -282,6 +282,8 @@ header{
     z-index:10;
 
     max-width:900px;
+    width:100%;
+    padding:0 20px;
 
 }
 
@@ -314,7 +316,7 @@ header{
 ========================================== */
 
 @media (max-width:768px){
- 
+
     .navbar{
         display:flex;
         flex-direction:column;
@@ -323,23 +325,28 @@ header{
         gap:20px;
         padding:20px;
     }
-    
-    .#hero{
-        min-height:100vh;
-        padding:120px 25px 70px;
-        text-align:center;
-        background-position:center center;
+
+    .nav-buttons{
+        display:none;
     }
 
-    .#hero h1{
-        font-size:54px;
-        line-height:0.95;
+    #hero{
+        min-height:100vh;
+        padding:160px 20px 80px;
+        text-align:center;
+        background-position:center;
+    }
+
+    #hero h1{
+        font-size:clamp(41px,14vw,64px);
+        line-height:.9;
+        letter-spacing:1px;
         margin-bottom:20px;
     }
 
-    .#hero p{
-        font-size:17px;
-        line-height:1.8;
+    #hero p{
+        font-size:16px;
+        line-height:1.7;
         width:100%;
         max-width:100%;
         margin:25px auto;
@@ -355,15 +362,10 @@ header{
     .hero-buttons a{
         width:100%;
         max-width:320px;
-        text-align:center;
     }
 
     .logo img{
         height:60px;
-    }
-
-    .navbar{
-        padding:18px 20px;
     }
 
 }
