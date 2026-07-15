@@ -349,6 +349,81 @@ header{
 .card p{
     text-align:center;
 }
+
+.workshop-location{
+
+    margin-top:50px;
+
+    text-align:center;
+
+}
+
+.workshop-location i{
+
+    color:var(--primary);
+
+    font-size:2rem;
+
+    margin-bottom:15px;
+
+}
+
+.workshop-location h3{
+
+    margin-bottom:15px;
+
+}
+
+.workshop-location p{
+
+    max-width:600px;
+
+    margin:0 auto 20px;
+
+    line-height:1.8;
+
+}
+
+.map-link{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.map-link:hover{
+
+    color:var(--primary-hover);
+
+}
+
+footer{
+
+    text-align:center;
+
+}
+
+footer small{
+
+    display:block;
+
+    text-align:center;
+
+    margin-top:20px;
+
+    color:var(--grey);
+
+}
+
 /* ==========================================
    MOBILE RESPONSIVE
 ========================================== */
