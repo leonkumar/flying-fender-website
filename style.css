@@ -270,8 +270,8 @@ header{
     inset:0;
 
     background:
-    linear-gradient(rgba(0,0,0,.82),
-                    rgba(0,0,0,.88));
+    linear-gradient(rgba(0,0,0,.55),
+                    rgba(0,0,0,.65));
 
 }
 
